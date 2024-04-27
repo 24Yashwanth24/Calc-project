@@ -6,7 +6,7 @@ color:darkgreen;
 }
 #border{
     width:30vw;
-    height:44vw;
+    height:40vw;
     background-color:black;
     border: 2px solid brown;
     display: flex;

@@ -83,3 +83,10 @@ btnDecimal.addEventListener("click",()=>{
 btnSolve.addEventListener("click",()=>{
     resScreen.textContent=eval(resScreen.textContent);
 });
+window.addEventListener("online",()=> {
+    alert("Your Network status is ONLINE");
+  });
+  
+  window.addEventListener("offline",()=> {
+    alert("Your Network status is OFFLINE");
+  });
