@@ -28,7 +28,9 @@ btnModulo.addEventListener("click",()=>{
     resScreen.textContent+="%";
 });
 btnDelete.addEventListener("click",()=>{
-    
+    let arr = resScreen.textContent;
+    let arr2 = arr.slice(0,arr.length-1);
+    resScreen.textContent=arr2;
 });
 btnDivide.addEventListener("click",()=>{
     resScreen.textContent+="/";
